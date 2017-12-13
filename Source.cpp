@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+double a, b;
 void Sum(double a, double b) {
 	cout << "Summation a + b: "<< a+b;
 }
@@ -14,7 +15,6 @@ void Div(double a, double b) {
 void Mult(double a, double b) {
 	cout << "\r\nMultiplication a*b: " << a*b<<endl;
 }
-double a, b;
 int main() {
 	cout << "Print a, please: \r\n";
 	cin >> a;
